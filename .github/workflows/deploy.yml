@@ -30,9 +30,10 @@ env:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
     ##runs-on: [self-hosted, Linux, X64]
     #runs-on: self-hosted
+    runs-on: self-hosted
     
     steps:
     - name: Checkout code
